@@ -5,6 +5,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
+    "deploy": "next build && next export",
     "start": "next start",
     "lint": "next lint"
   },
@@ -14,6 +15,8 @@
     "@types/react-dom": "18.0.11",
     "bootstrap": "^5.2.3",
     "next": "13.2.4",
+    "next-compose-plugins": "^2.2.1",
+    "next-optimized-images": "^2.6.2",
     "react": "18.2.0",
     "react-bootstrap": "^2.7.2",
     "react-dom": "18.2.0",
