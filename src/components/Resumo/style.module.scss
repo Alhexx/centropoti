@@ -1,0 +1,57 @@
+.aboutForum {
+  text-align: center;
+  h3 {
+    margin: 2rem 0;
+    color: #777;
+    font-family: roboto, Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+  p {
+    margin-left: 10rem;
+    margin-right: 10rem;
+    font-family: sans-serif;
+    color: #4d4d4d;
+  }
+}
+
+.line {
+  margin: auto;
+  width: 40px;
+  border-top: 2px solid #ff9900;
+  margin-bottom: 2rem;
+}
+
+.ajudas {
+  align-items: center;
+
+  .teste {
+    display: flex;
+    justify-content: center;
+  }
+  h4 {
+    color: #f90;
+    font-family: montserrat, Sans-serif;
+    font-size: 45px;
+    font-weight: 900;
+  }
+}
+
+.teste2 {
+  background: linear-gradient(
+    0deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(216, 110, 119, 1) 100%
+  );
+}
+
+.treinos {
+  margin: 2rem 0rem;
+  text-align: center;
+  p {
+    text-align: center;
+    font-family: sans-serif;
+    color: #4d4d4d;
+  }
+}

@@ -1,0 +1,26 @@
+.Sobre {
+  margin: 7rem 0rem;
+}
+
+.texto {
+  margin-right: 150px;
+  color: white;
+  padding: 2rem 0 2rem 0;
+
+  h2 {
+    font-family: roboto, Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
+
+.row_centro {
+  display: flex;
+  justify-content: center;
+}
+
+.carrossel {
+  margin-left: 150px;
+  padding: 2rem 0 5rem 0;
+}
