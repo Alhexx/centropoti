@@ -15,17 +15,18 @@ module.exports = {
       "/": { page: "/" },
     };
   },
-  // withPlugins: [
-  //   [
-  //     optimizedImages,
-  //     {
-  //       /* config for next-optimized-images */
-  //     },
-  //   ],
+  withPlugins: [
+    [
+      optimizedImages,
+      {
+        /* config for next-optimized-images */
+      },
+    ],
 
-  //   // your other plugins here
-  // ],
+    // your other plugins here
+  ],
   images: {
+    loader: "custom",
     unoptimized: true,
   },
 };

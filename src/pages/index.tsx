@@ -1,9 +1,8 @@
 import Head from "next/head";
-import Image from "next/image";
-import { Container, Row, Col } from "react-bootstrap";
 import style from "../styles/home.module.scss";
 import { Resumo } from "@/components/Resumo";
 import { Sobre } from "@/components/Sobre";
+import { Col } from "react-bootstrap";
 
 export default function Home() {
   return (
@@ -14,14 +13,18 @@ export default function Home() {
         <link rel="icon" href="/img/favicon.ico" />
       </Head>
       <div>
-        <div>
-          <Image
-            src="/img/treino.jpeg"
-            alt={"treino"}
-            height={700}
-            width={1864}
-          />
-        </div>
+        <Col>
+          <div className={style.teste}>
+            <img
+              src="/img/treino.jpeg"
+              style={{
+                width: "100%",
+                height: "100%",
+                maxHeight: "750px",
+              }}
+            />
+          </div>
+        </Col>
       </div>
 
       <main>

@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Col, Container, Row, Carousel } from "react-bootstrap";
 import style from "./style.module.scss";
 
@@ -33,7 +32,7 @@ export function Sobre() {
           <Col xs={12} lg={4} className={style.carrossel}>
             <Carousel>
               <Carousel.Item>
-                <Image
+                <img
                   src="/img/carrossel3.jpeg"
                   width={470}
                   height={540}
@@ -41,7 +40,7 @@ export function Sobre() {
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <Image
+                <img
                   src="/img/carrossel1.jpeg"
                   width={470}
                   height={540}
@@ -49,7 +48,7 @@ export function Sobre() {
                 />
               </Carousel.Item>
               <Carousel.Item>
-                <Image
+                <img
                   src="/img/carrossel2.jpeg"
                   width={470}
                   height={540}

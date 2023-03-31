@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { Container, Navbar, Nav } from "react-bootstrap";
 import Link from "next/link";
 
@@ -10,12 +9,12 @@ export function Menu() {
       <Container>
         <Link href="/">
           <Navbar.Brand>
-            <Image
+            <img
               src="/img/potilogo3.jpeg"
               alt={"POTI"}
               height={85}
               width={85}
-            ></Image>
+            />
           </Navbar.Brand>
         </Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />

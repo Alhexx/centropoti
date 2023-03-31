@@ -8,9 +8,15 @@
     font-weight: 700;
     text-transform: uppercase;
   }
+  @media (min-width: 1400px) {
+    p {
+      margin-left: 10rem;
+      margin-right: 10rem;
+    }
+  }
+
   p {
-    margin-left: 10rem;
-    margin-right: 10rem;
+    text-align: center;
     font-family: sans-serif;
     color: #4d4d4d;
   }
