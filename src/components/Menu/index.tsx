@@ -15,8 +15,8 @@ export function Menu() {
               style={{
                 width: "100%",
                 height: "100%",
-                maxHeight: "55px",
-                maxWidth: "55px",
+                maxHeight: "65px",
+                maxWidth: "65px",
               }}
             />
           </Navbar.Brand>
@@ -25,12 +25,13 @@ export function Menu() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link className={styles.menuItems} href="/register">
-              O Centro
-            </Nav.Link>
-            <Nav.Link className={styles.menuItems} href="/login">
-              Eventos
-            </Nav.Link>
+            <Nav.Link className={styles.menuItems}>O Centro</Nav.Link>
+            <Nav.Link className={styles.menuItems}>Eventos</Nav.Link>
+            <div className={styles.doe}>
+              <Nav.Link className={styles.texto} href="/doacao">
+                Doe Agora!
+              </Nav.Link>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Container>

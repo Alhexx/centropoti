@@ -4,5 +4,19 @@
   font-weight: bold;
   color: rgb(102, 102, 102);
   font-size: 13px;
+  margin: auto;
   letter-spacing: 1px;
+}
+
+.doe {
+  border-width: 0px !important;
+  border-color: #ffffff;
+  border-radius: 10px;
+  background-color: #d86e77;
+  .texto {
+    color: #ffffff !important;
+    font-size: 22px;
+    text-align: center;
+    font-weight: 700 !important;
+  }
 }

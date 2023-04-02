@@ -13,6 +13,7 @@ module.exports = {
   ) {
     return {
       "/": { page: "/" },
+      "/doacao": { page: "/doacao" },
     };
   },
   withPlugins: [
