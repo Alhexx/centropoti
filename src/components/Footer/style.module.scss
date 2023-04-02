@@ -1,6 +1,6 @@
 .footer {
   padding: 1rem;
-  background-color: rgba(79, 79, 79, 1);
+  background-color: #2e3532;
   color: rgba(255, 255, 255, 1);
 }
 
@@ -43,6 +43,39 @@
     text-transform: uppercase;
   }
 }
+
+.vl {
+  border-left: 2px solid #777;
+  height: 100%;
+}
+
+.linhaG {
+  margin-top: 60px;
+  border-top: 3px solid #ffff;
+  width: 100%;
+}
+.linhaF {
+  margin-top: 60px;
+  border-top: 1px solid #ffff;
+  width: 100%;
+}
+
+.display {
+  display: block;
+}
+
+.terceiraCol {
+  text-align: center;
+  display: block;
+  h4 {
+    padding-top: 1.5rem;
+    color: #ffff;
+    font-family: roboto, Sans-serif;
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+  }
+}
 .terceira {
   text-align: center;
   h4 {
@@ -55,29 +88,20 @@
   }
 }
 
-.vl {
-  border-left: 2px solid #777;
-  height: 100%;
-}
-
 @media (max-width: 991px) {
-  .container {
-    position: relative;
+  .terceiraCol {
+    display: none;
   }
-
-  .box {
-    position: absolute;
-    margin-top: 60px;
-    border-top: 3px solid #ffff;
-    width: 100%;
-  }
-  .overlay-box {
-    position: absolute;
-    height: 100px;
-    width: 100px;
-    background-color: rgba(79, 79, 79, 1);
+  .display {
+    display: none;
   }
 }
+@media (min-width: 992px) {
+  .terceira {
+    display: none;
+  }
+}
+
 @media (max-width: 767px) {
   .primeira {
     margin-left: -20px;

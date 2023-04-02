@@ -11,7 +11,7 @@ export function Footer() {
             <Col xs={5} md={5} lg={3} className={styles.primeira}>
               <Col>
                 <img
-                  src="/img/potilogoSF.png"
+                  src="/img/potilogoSFbranca.png"
                   alt={"POTI"}
                   style={{
                     width: "100%",
@@ -35,7 +35,7 @@ export function Footer() {
                 <span>comunicacao@potiguaresrace.com.br</span>
               </Col>
             </Col>
-            <Col xs={2} md={2} lg={1} className={styles.teste}>
+            <Col xs={2} md={2} lg={1}>
               <div className={styles.vl} />
             </Col>
             <Col xs={5} md={5} lg={3} className={styles.segunda}>
@@ -52,12 +52,7 @@ export function Footer() {
             <Col xs={0} md={0} lg={1}>
               <div className={styles.vl} />
             </Col>
-            <Col
-              xs={{ span: 12, offset: 0 }}
-              md={{ span: 12, offset: 0 }}
-              lg={{ span: 3, offset: 0 }}
-              className={styles.terceira}
-            >
+            <Col xs={0} md={0} lg={3} className={styles.terceiraCol}>
               <div className={styles.container}>
                 <div className={styles.box} />
                 <div className={styles.box_overlay}>
@@ -81,6 +76,45 @@ export function Footer() {
                 </div>
               </div>
             </Col>
+
+            <Row xs={12} md={12} lg={0}>
+              <Col xs={12} className={styles.terceiraCol}>
+                <div className={styles.linhaF} />
+              </Col>
+            </Row>
+
+            <div className={styles.terceira}>
+              <Row xs={12} md={12} lg={0}>
+                <Col xs={4}>
+                  <div className={styles.linhaG} />
+                </Col>
+                <Col xs={4}>
+                  <div className={styles.container}>
+                    <div className={styles.box} />
+                    <div>
+                      <h4>Siga-nos</h4>
+                    </div>
+                    <div style={{ display: "flex", justifyContent: "center" }}>
+                      <div style={{ paddingRight: "1rem" }}>
+                        <SocialIcon url="facebook.com/potiguaresrunners/" />
+                      </div>
+                      <div style={{ paddingRight: "1rem" }}>
+                        <SocialIcon url="instagram.com/centro_potiguares/" />
+                      </div>
+                      <div>
+                        <SocialIcon
+                          url="wa.me/5584998745527?text=Ol%C3%A1%21+Gostaria+de+Fazer+uma+Doa%C3%A7%C3%A3o+Para+o+Centro+Potiguares."
+                          network="whatsapp"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </Col>
+                <Col xs={4}>
+                  <div className={styles.linhaG} />
+                </Col>
+              </Row>
+            </div>
           </Row>
           <div className={styles.copy1}>
             Copyrights &copy; 2023
