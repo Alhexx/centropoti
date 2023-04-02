@@ -10,10 +10,14 @@ export function Menu() {
         <Link href="/">
           <Navbar.Brand>
             <img
-              src="/img/potilogo3.jpeg"
+              src="/img/potilogoSF.jpg"
               alt={"POTI"}
-              height={85}
-              width={85}
+              style={{
+                width: "100%",
+                height: "100%",
+                maxHeight: "85px",
+                maxWidth: "85px",
+              }}
             />
           </Navbar.Brand>
         </Link>
