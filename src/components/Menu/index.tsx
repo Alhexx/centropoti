@@ -15,8 +15,8 @@ export function Menu() {
               style={{
                 width: "100%",
                 height: "100%",
-                maxHeight: "85px",
-                maxWidth: "85px",
+                maxHeight: "55px",
+                maxWidth: "55px",
               }}
             />
           </Navbar.Brand>

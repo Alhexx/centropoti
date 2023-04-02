@@ -107,3 +107,27 @@
     margin-left: -20px;
   }
 }
+@media (max-width: 565px) {
+  .primeira {
+    margin-right: 50px;
+    color: #ffff;
+    font-family: roboto, Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .segunda {
+    margin-left: -50px;
+    color: #ffff;
+    font-family: roboto, Sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    h4 {
+      padding-top: 1.5rem;
+      color: #ffff;
+      font-family: roboto, Sans-serif;
+      font-size: 22px;
+      font-weight: 700;
+      text-transform: uppercase;
+    }
+  }
+}
