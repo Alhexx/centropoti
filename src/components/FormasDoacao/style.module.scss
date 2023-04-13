@@ -1,0 +1,25 @@
+.pagamento {
+  text-align: center;
+  h4 {
+    margin-bottom: 0.8rem;
+  }
+  label {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+
+  h6 {
+    margin-top: 0.8rem;
+
+    a {
+      color: black !important;
+      text-decoration: underline !important;
+      cursor: text;
+    }
+  }
+}
+
+.margins {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+}

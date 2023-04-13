@@ -61,14 +61,20 @@ export function Footer() {
                   </div>
                   <div style={{ display: "flex", justifyContent: "center" }}>
                     <div style={{ paddingRight: "1rem" }}>
-                      <SocialIcon url="facebook.com/potiguaresrunners/" />
+                      <SocialIcon
+                        url="//facebook.com/potiguaresrunners/"
+                        network="facebook"
+                      />
                     </div>
                     <div style={{ paddingRight: "1rem" }}>
-                      <SocialIcon url="instagram.com/centro_potiguares/" />
+                      <SocialIcon
+                        url="//instagram.com/centro_potiguares/"
+                        network="instagram"
+                      />
                     </div>
                     <div>
                       <SocialIcon
-                        url="wa.me/5584998745527?text=Ol%C3%A1%21+Gostaria+de+Fazer+uma+Doa%C3%A7%C3%A3o+Para+o+Centro+Potiguares."
+                        url="//wa.me/5584998745527?text=Ol%C3%A1%21+Gostaria+de+Fazer+uma+Doa%C3%A7%C3%A3o+Para+o+Centro+Potiguares."
                         network="whatsapp"
                       />
                     </div>
@@ -96,7 +102,7 @@ export function Footer() {
                     </div>
                     <div style={{ display: "flex", justifyContent: "center" }}>
                       <div style={{ paddingRight: "1rem" }}>
-                        <SocialIcon url="facebook.com/potiguaresrunners/" />
+                        <SocialIcon url="//facebook.com/potiguaresrunners/" />
                       </div>
                       <div style={{ paddingRight: "1rem" }}>
                         <SocialIcon url="instagram.com/centro_potiguares/" />

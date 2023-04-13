@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Container, Row, Col } from "react-bootstrap";
 import style from "../../styles/doacao.module.scss";
+import { FormasDoacao } from "@/components/FormasDoacao";
 
 export default function doacao() {
   return (
@@ -29,7 +30,7 @@ export default function doacao() {
       </div>
 
       <main>
-        <h1>EM BREVE</h1>
+        <FormasDoacao />
       </main>
     </div>
   );
