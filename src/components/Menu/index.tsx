@@ -26,7 +26,9 @@ export function Menu() {
           <Nav className="me-auto"></Nav>
           <Nav>
             <Nav.Link className={styles.menuItems}>O Centro</Nav.Link>
-            <Nav.Link className={styles.menuItems}>Eventos</Nav.Link>
+            <Nav.Link className={styles.menuItems} href="/eventos">
+              Eventos
+            </Nav.Link>
             <div className={styles.doe}>
               <Nav.Link className={styles.texto} href="/doacao">
                 Doe Agora!

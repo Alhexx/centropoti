@@ -14,6 +14,7 @@ export default function doacao() {
       <div>
         <Col>
           <div className={style.doacao}>
+            <h1 className={style.texto}>Doação</h1>
             <img
               className={style.image}
               src="/img/doacao.jpeg"
@@ -24,7 +25,6 @@ export default function doacao() {
                 maxHeight: "250px",
               }}
             />
-            <h1 className={style.texto}>Doação</h1>
           </div>
         </Col>
       </div>

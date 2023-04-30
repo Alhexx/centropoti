@@ -53,35 +53,33 @@ export function FormasDoacao() {
                       <div>
                         <h3>Transfêrencia</h3>
                         <span>Clique para ver os dados!</span>
-                        {/* <span>Banco: 290 - PagSeguro</span>
-                        <br />
-                        <span>Agência: 0001</span>
-                        <br />
-                        <span>Conta corrente: 46788930-9</span>
-                        <br />
-                        <span>CNPJ: 50.065.813/0001-38</span> */}
                       </div>
                     </div>
                   </Card.Body>
                 </Card>
               </Col>
               <Col xs={12} md={4} lg={4}>
-                <Card>
-                  <Card.Body>
-                    <div style={{ display: "flex" }}>
-                      <FaPaypal
-                        style={{
-                          fontSize: "3rem",
-                          marginRight: "1rem",
-                        }}
-                      />
-                      <div>
-                        <h3>PayPal</h3>
-                        <span>Clique para ser direcionado ao PayPal!</span>
+                <a
+                  href="https://www.paypal.com/donate/?hosted_button_id=AZ2L25C8JA374"
+                  className={style.paypal}
+                >
+                  <Card>
+                    <Card.Body>
+                      <div style={{ display: "flex" }}>
+                        <FaPaypal
+                          style={{
+                            fontSize: "3rem",
+                            marginRight: "1rem",
+                          }}
+                        />
+                        <div>
+                          <h3>PayPal</h3>
+                          <span>Clique para ser direcionado ao PayPal!</span>
+                        </div>
                       </div>
-                    </div>
-                  </Card.Body>
-                </Card>
+                    </Card.Body>
+                  </Card>
+                </a>
               </Col>
             </Row>
           </div>

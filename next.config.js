@@ -14,6 +14,7 @@ module.exports = {
     return {
       "/": { page: "/" },
       "/doacao": { page: "/doacao" },
+      "/eventos": { page: "/eventos" },
     };
   },
   withPlugins: [
